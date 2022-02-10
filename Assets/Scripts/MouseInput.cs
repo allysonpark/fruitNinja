@@ -36,7 +36,15 @@ public class MouseInput : MonoBehaviour
          for (int i = 0; i < allOverlaps.Length; i++)
          {
             GameObject target = allOverlaps[i].gameObject;
-            //Do your thing here.
+            if (target.CompareTag("Fruit"))
+                {
+                    Score.Singleton.AddScore(1);
+                }
+            else if (target.CompareTag("Beans"))
+                {
+                    Score.Singleton.AddScore(-5);
+                }
+                GameObject.Destroy(target);
          }
       }
    }

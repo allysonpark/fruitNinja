@@ -27,8 +27,12 @@ public class SpawnManager : MonoBehaviour
    #region First Time Initialization and Set Up
    private void Awake()
    {
-      // Initialize the spawn timers using the FirstSpawnTime variable
-   }
+        m_EnemySpawnTimers = new float[m_EnemyTypes.Length];
+        for(int i = 0; i < m_EnemyTypes.Length; i++) {
+            m_EnemySpawnTimers[i] = m_EnemyTypes[i].FirstSpawnTime; //Reset the first spawn time for each enemy
+        }
+        // Initialize the spawn timers using the FirstSpawnTime variable
+    }
    #endregion
 
    #region Main Updates
@@ -39,6 +43,17 @@ public class SpawnManager : MonoBehaviour
       // If it is, just spawn the enemy using Instantiate(m_EnemyTypes[i].EnemyPrefab)
          // Make sure to reset the timer back to the appropriate value based on SpawnRate
       // Else, increase the timer using Time.deltaTime
+      for (int i = 0; i < m_EnemyTypes.Length; i++)
+        {
+            if (m_EnemySpawnTimers[i] <= 0)
+            {
+                Instantiate(m_EnemyTypes[i].EnemyPrefab);
+                m_EnemySpawnTimers[i] = m_EnemyTypes[i].SpawnRate * 2;
+            } else
+            {
+                m_EnemySpawnTimers[i] -= 1;
+            }
+        }
    }
    #endregion
 }

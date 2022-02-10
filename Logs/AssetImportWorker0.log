@@ -1,81 +1,218 @@
 Using pre-set license
-Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.985; Version 2009; 64bit' Language: 'en' Physical Memory: 8143 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\Owner\Desktop\UnityFiles\2021.1.7f1\Editor\Unity.exe
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Owner/Documents/GitHub/Advanced-Scripting
+/Users/allysonpark/Berkeley/Sp22/GameDev/Advanced-Scripting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55153
-Successfully changed project path to: C:/Users/Owner/Documents/GitHub/Advanced-Scripting
-C:/Users/Owner/Documents/GitHub/Advanced-Scripting
+64953
+Successfully changed project path to: /Users/allysonpark/Berkeley/Sp22/GameDev/Advanced-Scripting
+/Users/allysonpark/Berkeley/Sp22/GameDev/Advanced-Scripting
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.11 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
-[Subsystems] Discovering subsystems at path C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Owner/Documents/GitHub/Advanced-Scripting/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/allysonpark/Berkeley/Sp22/GameDev/Advanced-Scripting/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
-    Vendor:   NVIDIA
-    VRAM:     4043 MB
-    Driver:   27.21.14.5671
+2022-02-04 19:05:36.421 Unity[16288:785378] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-02-04 19:05:36.421 Unity[16288:785378] Metal devices available: 1
+2022-02-04 19:05:36.421 Unity[16288:785378] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-02-04 19:05:36.421 Unity[16288:785378] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
-Mono path[0] = 'C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Users/Owner/Desktop/UnityFiles/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005371 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000533 seconds.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.937 seconds
+- Completed reload, in  2.450 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007598 seconds.
+Registered in 0.002482 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
+- Completed reload, in  1.144 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.2 MB.
+System memory in use after: 140.3 MB.
 
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 2233.
-Total: 6.335100 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.128900 ms MarkObjects: 5.906400 ms  DeleteObjects: 0.105700 ms)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 2237.
+Total: 5.078553 ms (FindLiveObjects: 0.123062 ms CreateObjectMapping: 0.043505 ms MarkObjects: 4.816905 ms  DeleteObjects: 0.093858 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/main.unity
-  artifactKey: Guid(2cb6fb3120e83504dacfc911ee518aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main.unity using Guid(2cb6fb3120e83504dacfc911ee518aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e040843360e3a79bcb60704ec36e1c1') in 0.013937 seconds 
+  artifactKey: Guid(2cb6fb3120e83504dacfc911ee518aad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/main.unity using Guid(2cb6fb3120e83504dacfc911ee518aad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2fa64ffbfbda4f7ab6d43cc81673d1fd') in 0.063445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Prefabs/Beans.prefab
+  artifactKey: Guid(4a43b230a1b1b4caaae67d17bc194a87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Beans.prefab using Guid(4a43b230a1b1b4caaae67d17bc194a87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '38823e74b611593e25e9693b43cbbac1') in 1.193020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Prefabs/Fruit.prefab
+  artifactKey: Guid(716ed09d2cced4a41831529e002869b2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Fruit.prefab using Guid(716ed09d2cced4a41831529e002869b2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2949a8846d028968aada8e82b6cb9a64') in 0.005109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(a6ac7e0cb51b0c444ade8e54b64f5d5e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(a6ac7e0cb51b0c444ade8e54b64f5d5e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ad6c840ebe6d2f25c039240f7a003d09') in 0.422461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Scripts/Fruit.cs
+  artifactKey: Guid(55e278340b1ce431b8b697c8c973bcb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Fruit.cs using Guid(55e278340b1ce431b8b697c8c973bcb8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3f9b17cef5ab42998eb25d1f5a2cf23d') in 0.006262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sprites/pngwing.com.png
+  artifactKey: Guid(1dfb4edc065fe4b23a4e6bbe9b042545) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/pngwing.com.png using Guid(1dfb4edc065fe4b23a4e6bbe9b042545) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a390876de2ccd496592192603dac0c7f') in 1.066379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(60dba7c6b9cc1ac4191632424e79d0ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(60dba7c6b9cc1ac4191632424e79d0ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4aafb4aae78167af3915aaf7439e1583') in 0.003621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/pear.PNG
+  artifactKey: Guid(523b4a621a7dd4e53bebc070f26bc5b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/pear.PNG using Guid(523b4a621a7dd4e53bebc070f26bc5b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'abeb22f13dcc2278778faa5a611a78b2') in 0.964747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(a0766c695ab94894094d5db1532d4602) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(a0766c695ab94894094d5db1532d4602) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f82dc4904b3d9c4507204e0b14b9c6af') in 0.005146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefabs/Apple.prefab
+  artifactKey: Guid(744ad08ca4c5f42c0801e1fd03a169d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Apple.prefab using Guid(744ad08ca4c5f42c0801e1fd03a169d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3c50b23c7e5c212104026e3553a9cb75') in 0.005171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/Strawberry.prefab
+  artifactKey: Guid(980af630b842040c28def96f75e3c3fd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Strawberry.prefab using Guid(980af630b842040c28def96f75e3c3fd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '481acb203a907eb542d61eec8e537e57') in 0.023721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprites/beans.PNG
+  artifactKey: Guid(528e559b3ade949fda0769c032a7c7ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/beans.PNG using Guid(528e559b3ade949fda0769c032a7c7ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9b2bb13848935b8ec2b5cca874b5fb51') in 0.006482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(3110b15cd145cc64e972f18638b985b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Resources/BillingMode.json using Guid(3110b15cd145cc64e972f18638b985b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ee169f49c8e747621fc31895fffba5a5') in 0.366343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/apple.PNG
+  artifactKey: Guid(bc00d4e30e1244d17acb0feea579ad60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/apple.PNG using Guid(bc00d4e30e1244d17acb0feea579ad60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ddf25170ac07f7376a97d2e3cfc05aa4') in 0.007140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/strawberry.png
+  artifactKey: Guid(c4311ccf1479847ba9b734be92eb03e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/strawberry.png using Guid(c4311ccf1479847ba9b734be92eb03e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b7131128da6011ae989400666b3f582f') in 0.008271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sprites/orange.PNG
+  artifactKey: Guid(31fdf73de91e44eeba79084ec3e4c208) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/orange.PNG using Guid(31fdf73de91e44eeba79084ec3e4c208) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce3a659334da121a3f99983012eabfa8') in 0.007370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefabs/Systems.prefab
+  artifactKey: Guid(a34b024cb2656d7499cb2eb745b14d5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Systems.prefab using Guid(a34b024cb2656d7499cb2eb745b14d5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b5b535e6e932e5847dda144d8a2908a6') in 0.003283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Sprites/strawb.PNG
+  artifactKey: Guid(63233c6ca907546d7bf65c7d27bf7061) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Sprites/strawb.PNG using Guid(63233c6ca907546d7bf65c7d27bf7061) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'bd300e194ea7ccdcd6a6114b056114c3') in 0.006565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/Pear.prefab
+  artifactKey: Guid(9497b3471117b46d19c6e728dad702cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Pear.prefab using Guid(9497b3471117b46d19c6e728dad702cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '97b8aa583dfcf2cbca7d9224948f640f') in 0.004848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Scripts/Score.cs
+  artifactKey: Guid(38f90a382d9504b4898b4dd68bc49478) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Score.cs using Guid(38f90a382d9504b4898b4dd68bc49478) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '96b9ac09b8a9baddf24d6529accb209e') in 0.009875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Prefabs/Orange.prefab
+  artifactKey: Guid(1698f6a945b554599b1a22724d7f5bee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Orange.prefab using Guid(1698f6a945b554599b1a22724d7f5bee) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7a6bc182dad971d87c980f7d3701536d') in 0.004419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Scripts/MouseInput.cs
+  artifactKey: Guid(9c58cd6806626f647b85be58e30e8a8e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/MouseInput.cs using Guid(9c58cd6806626f647b85be58e30e8a8e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '52b6ffabac8292964a9c6550dbbe6428') in 0.005161 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.8 MB.
+System memory in use after: 161.9 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2240.
+Total: 7.958361 ms (FindLiveObjects: 0.201523 ms CreateObjectMapping: 0.080048 ms MarkObjects: 7.633361 ms  DeleteObjects: 0.041322 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
